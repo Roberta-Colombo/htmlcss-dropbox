@@ -27,8 +27,15 @@ body {
 
 .flex {
     display: flex;
-    flex-flow: row;
     align-items: center;
+}
+
+.row {
+    flex-flow: row;
+}
+
+.column {
+    flex-flow: column;
 }
 
 .space-between {
@@ -46,6 +53,11 @@ body {
 .end {
     justify-content: flex-end;
 }
+
+.align-items-start {
+    align-items: flex-start;
+}
+
 
 /* Style header  */
 
@@ -78,7 +90,6 @@ li a {
 .hero {
     width: 100%;
     background-color: var(--babyblue);
-    height: 2000px;
     padding-top: 80px;
 }
 
@@ -86,11 +97,52 @@ nav img {
     margin-left: 15px;
 }
 
-nav button {
+button {
     font-size: 16px;
     margin-left: 25px;
     margin-right: 20px;
     background-color: var(--electricblue);
     border-style: none;
     padding: 8px 15px;
+}
+
+.content-box {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.width-30percent {
+    width: 30%;
+    padding-top: 50px;
+    line-height: 1.5;
+}
+
+.width-30percent button {
+    margin: 30px 0;
+    padding: 12px 15px;
+}
+
+.fa-solid.fa-arrow-down {
+    font-size: 50px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+a .fa-solid.fa-arrow-down {
+    color: var(--black)
+}
+
+.width-70percent {
+    width: 70%;
+}
+
+.width-70percent img {
+    width: 100%;
+    padding-top: 50px;
 }
