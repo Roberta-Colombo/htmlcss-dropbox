@@ -49,6 +49,10 @@ body {
 }  
 
 .start {
+    justify-content: flex-start;
+}
+
+.center {
     justify-content: center;
 }
 
@@ -220,7 +224,8 @@ h3 {
 
 .offer-card button {
     padding: 12px 35px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .call-to-action {
@@ -231,13 +236,14 @@ h3 {
 hr {
     width: 15%;
     margin-left: 25px;
-    /* margin-top: 15px; */
+    margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .fa-solid.fa-check {
     color: var(--electricblue);
 }
 
-.main-features .offer-content div {
-    display: inline;
+.main-features .offer-content span {
+    display: block;
 }    
