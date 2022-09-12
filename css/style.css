@@ -1,0 +1,23 @@
+/* Utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #ffffff; 
+    --black: #000000; 
+    --babyblue: #B4D0E7; 
+    --electricblue: #0061FF; 
+    --pastelgreen: #A2D39B; 
+    --burgundy: #61082B;
+    --skyblue: #0093CE; 
+    --brightred: #FF1C1C;
+    --lightgrey: #F5F5F5; 
+    --darkred: #D5001F;
+    --darkblue: #0D2481; 
+    --sunglow: #FFD830; 
+}
+
