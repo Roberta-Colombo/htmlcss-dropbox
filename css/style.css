@@ -150,3 +150,29 @@ a .fa-solid.fa-arrow-down {
     width: 100%;
     padding-top: 50px;
 }
+
+/* Style Main */
+
+.main-container {
+    max-width: 55%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 500px;
+    padding-top: 90px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.fatturazione{
+    padding-top: 50px;   
+}
+
+.fatturazione span {
+    margin-right: 25px;
+}
+
+.selector {
+    margin-right: 5px;
+}
