@@ -110,6 +110,7 @@ button {
     width: 65%;
     margin: 0 auto;
     padding-top: 90px;
+    position: relative;
 }
 
 h1 {
@@ -139,7 +140,10 @@ a .fa-solid.fa-arrow-down {
 }
 
 .width-70percent {
-    width: 70%;
+    width: 70%; 
+    position: absolute;
+    left: 30%;
+    bottom: -25px;
 }
 
 .width-70percent img {
