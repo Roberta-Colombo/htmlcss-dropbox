@@ -160,7 +160,7 @@ a .fa-solid.fa-arrow-down {
 /* Style Main */
 
 .main-container {
-    max-width: 55%;
+    max-width: 50%;
     margin: 0 auto;
     padding-top: 90px;
 }
@@ -218,7 +218,6 @@ h3 {
 }
 
 .offer-details{
-    line-height: 1.5;
     padding-bottom: 45px;
 }
 
