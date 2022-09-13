@@ -282,3 +282,37 @@ hr {
     left: 71%;
     bottom: 150px;
 }
+
+/* Style SECOND SECTION */
+
+.second-section {
+    margin-top: 150px;
+}
+
+.second-section-w60percent {
+    width: 60%;
+}
+
+.second-section-w60percent img {
+    width: 100%;
+}
+
+.second-section-w40percent {
+    width: 40%;
+    position: relative;
+    left: 60%;
+    bottom: 420px;
+    padding-left: 50px;
+    line-height: 1.5;
+}
+
+.second-section-w40percent button {
+    background-color: var(--white);
+    border: 1px solid black;
+    margin-left: -1px;
+    margin-top: 25px;
+}
+
+.second-section-w40percent button a {
+    color: var(--black);
+}
