@@ -163,6 +163,8 @@ a .fa-solid.fa-arrow-down {
 
 /* Style Main */
 
+/* Style FIRST SECTION */
+
 .main-container {
     max-width: 50%;
     margin: 0 auto;
@@ -196,12 +198,13 @@ h2 {
 }
 
 .offer-type {
+    width: 100%;
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid var(--border-grey);
 }
 
-.offer-card i {
+.horizontal-offer-card i, .offer-card i {
     margin-right: 10px;
 }  
 
@@ -227,7 +230,7 @@ h3 {
     margin-bottom: 50px;
 }
 
-.offer-card button {
+.horizontal-offer-card button, .offer-card button {
     width: 90%;
     text-align: center;
     font-size: 14px;
@@ -258,4 +261,24 @@ hr {
 
 .list-icon {
     text-indent: -1.2em;
+}
+
+.horizontal-offer-card {
+    width: 100%;
+    border: 1px solid var(--border-grey);
+    margin-top: 40px;
+}
+
+.first-section-w70percent {
+    width: 70%;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.first-section-w30percent {
+    width: 30%;
+    padding-top: 15px;
+    position: relative;
+    left: 71%;
+    bottom: 150px;
 }
