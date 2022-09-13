@@ -359,7 +359,6 @@ hr {
 
 .big-square {
     width: 33%;
-    border: 1px solid black;
 }
 
 .little-square {
@@ -369,14 +368,14 @@ hr {
 }
 
 .grey-square {
-    border: 1px solid red;
+    background-color: var(--lightgrey);
     width: 700px;
-    height: 700px;
+    height: 600px;
     overflow-y: auto;
 }
 
 .little-square svg {
-    width: 45%;
+    width: 50%;
 }
 
 .logo-brand {
