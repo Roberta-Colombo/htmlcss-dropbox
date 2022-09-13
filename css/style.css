@@ -64,6 +64,9 @@ body {
     align-items: flex-start;
 }
 
+.align-items-stretch {
+    align-items: stretch;
+}
 
 /* Style header  */
 
@@ -200,7 +203,7 @@ h2 {
 
 .offer-card i {
     margin-right: 10px;
-}
+}  
 
 .offer-content {
     padding: 20px 25px;
@@ -223,10 +226,6 @@ h3 {
     padding-top: 20px;
     margin-bottom: 50px;
 }
-
-/* .details-icon {
-    text-indent: 2px;
-} */
 
 .offer-card button {
     width: 90%;
@@ -258,9 +257,5 @@ hr {
 }    
 
 .list-icon {
-    text-indent: -35px;
-}
-
-.main-features li span {
-    margin-left: -30px;
+    text-indent: -1.2em;
 }
