@@ -319,7 +319,7 @@ hr {
     margin-top: 25px;
 }
 
-.second-section-w40percent button a {
+.second-section-w40percent a {
     color: var(--black);
 }
 
@@ -436,3 +436,33 @@ hr {
 .otto {
     background-color: var(--sunglow);
 }
+
+.fifth-section-w50percent h2 {
+    color: var(--burgundy);
+}
+
+.fifth-section-w50percent {
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.fifth-section-w50percent.right {
+   position: absolute;
+   left: 50%;
+   padding-left: 250px;
+}
+
+.fifth-section-w50percent button {
+    background-color: var(--white);
+    padding: 10px 20px;
+}
+
+.fifth-section-w50percent a {
+    color: var(--black);
+}
+
+.bg-babyblue {
+    background-color: var(--babyblue);
+}
+
