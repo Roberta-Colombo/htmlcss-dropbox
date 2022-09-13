@@ -369,13 +369,31 @@ hr {
 
 .grey-square {
     background-color: var(--lightgrey);
-    width: 700px;
+    width: 645px;
     height: 600px;
     overflow-y: auto;
 }
 
+.grey-square.content {
+    padding: 60px 50px;
+    line-height: 1.5;
+}
+
+.grey-square img {
+    height: 100px;
+    padding-bottom: 20px;
+}
+
 .little-square svg {
     width: 50%;
+}
+
+.grey-square p {
+    padding-top: 30px;
+}
+
+.grey-square hr {
+    margin-left: 2px;
 }
 
 .logo-brand {
