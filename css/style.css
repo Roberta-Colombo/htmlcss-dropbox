@@ -104,6 +104,7 @@ nav img {
 }
 
 button {
+    display: block;
     font-size: 16px;
     margin-left: 25px;
     margin-right: 20px;
@@ -202,7 +203,8 @@ h2 {
 }
 
 .offer-content {
-    padding: 30px 25px;
+    padding: 20px 25px;
+    font-size: 14px;
 }
 
 h3 {
@@ -214,17 +216,25 @@ h3 {
 .price {
     font-size: 14px;
     line-height: 2;
-    padding-bottom: 35px;
+    padding-bottom: 5px;
 }
 
 .offer-details{
-    padding-bottom: 45px;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 
+/* .details-icon {
+    text-indent: 2px;
+} */
+
 .offer-card button {
-    padding: 12px 35px;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 20px;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-left: 5px;
 }
 
 .call-to-action {
@@ -246,3 +256,11 @@ hr {
 .main-features .offer-content span {
     display: block;
 }    
+
+.list-icon {
+    text-indent: -35px;
+}
+
+.main-features li span {
+    margin-left: -30px;
+}
