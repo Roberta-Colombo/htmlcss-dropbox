@@ -358,7 +358,7 @@ hr {
 }
 
 .big-square {
-    width: 33%;
+    width: 34%;
 }
 
 .little-square {
@@ -369,7 +369,7 @@ hr {
 
 .grey-square {
     background-color: var(--lightgrey);
-    width: 645px;
+    width: 606px;
     height: 600px;
     overflow-y: auto;
 }
@@ -386,6 +386,7 @@ hr {
 
 .little-square svg {
     width: 50%;
+    filter: invert(1);
 }
 
 .grey-square p {
