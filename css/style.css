@@ -338,3 +338,14 @@ hr {
 .card img {
     width: 100%;
 }
+
+/* Style FOURTH SECTION */
+
+.fourth-section {
+    margin-top: 150px;
+}
+
+.fourth-section a {
+    color: var(--violet);
+    text-decoration: underline; 
+}
