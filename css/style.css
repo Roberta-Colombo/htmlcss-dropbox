@@ -470,6 +470,7 @@ hr {
 
 .sixth-section {
     padding-top: 50px;
+    padding-bottom: 130px;
 }
 
 .sixth-section h2 {
@@ -483,4 +484,32 @@ hr {
 
 summary {
     padding-top: 40px;
+}
+
+/* Style FOOTER */
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer li a {
+    color: var(--white);
+    line-height: 2;
+}
+
+footer hr {
+    margin: 80px 25px 50px;
+    width: 10%;
+}
+
+.languages {
+    margin-left: 25px;
+}
+
+.languages i {
+    filter: invert(-1);
+    opacity: 0.6;
+    margin-right: 10px;
+    padding-bottom: 60px;
 }
