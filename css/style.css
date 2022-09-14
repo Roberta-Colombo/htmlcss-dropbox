@@ -268,7 +268,7 @@ hr {
 }
 
 .horizontal-offer-card {
-    width: 100%;
+    min-width: 100%;
     border: 1px solid var(--border-grey);
     margin-top: 40px;
     height: 250px;
@@ -358,23 +358,25 @@ hr {
 }
 
 .big-square {
-    width: 34%;
+    width: 32vw;
+    height: 32vw;
 }
 
 .little-square {
-    width: 50%;
-    height: 300px;
+    height: 16vw;
+    width: 16vw;
     text-align: center;    
 }
 
 .grey-square {
+    width: calc(100% - 64vw);
     background-color: var(--lightgrey);
-    width: 606px;
-    height: 600px;
+    height: 32vw;
+    padding: 20px;
     overflow-y: auto;
 }
 
-.grey-square.content {
+.content {
     padding: 60px 50px;
     line-height: 1.5;
 }
@@ -382,9 +384,9 @@ hr {
 .grey-square img {
     height: 100px;
     padding-bottom: 20px;
-}
+} 
 
-.little-square svg {
+.little-square img {
     width: 50%;
     filter: invert(1);
 }
