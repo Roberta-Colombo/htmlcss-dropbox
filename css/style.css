@@ -28,7 +28,8 @@ body {
     --darkblue: #0D2481; 
     --sunglow: #FFD830;
     --border-grey: #D0D0D3;
-    --violet: #4953F2;   
+    --violet: #4953F2;
+    --beige: #F7F5F2;    
 }
 
 .flex {
@@ -87,7 +88,7 @@ nav {
     background-color: var(--white); 
     height: 80px;
     position: fixed;
-    z-index: 1000;
+    z-index: 900;
 }
 
 li {
@@ -100,9 +101,56 @@ a {
     color: var(--white);
 }
 
-li a {
+ul a {
     color: var(--black);
 }
+
+.dropbtn {
+    padding: 30px 40px 30px 10px;
+    text-align: center;
+    background-color: var(--white);
+    margin: 0;
+}
+
+.dropbtn:hover {
+    opacity: 100;
+}
+
+.first {
+    margin-left: 30px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--beige);
+    min-width: 400px;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: var(--beige);
+    z-index: 1000;
+} 
+
+.dropdown-content li {
+    font-size: 14px;
+    line-height: 2.5;
+}
+
 
 .hero {
     width: 100%;
