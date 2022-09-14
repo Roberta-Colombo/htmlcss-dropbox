@@ -133,8 +133,12 @@ ul a {
     display: none;
     position: absolute;
     background-color: var(--beige);
-    min-width: 400px;
+    min-width: 300px;
     z-index: 1000;
+}
+
+.dropdown-right {
+    right:0;
 }
 
 .dropdown:hover .dropdown-content {
