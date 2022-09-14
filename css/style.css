@@ -124,6 +124,10 @@ button {
     padding: 8px 15px;
 }
 
+button:hover {
+    opacity: 0.8;
+}
+
 .content-box {
     width: 65%;
     margin: 0 auto;
