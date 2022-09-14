@@ -315,7 +315,6 @@ h2 {
     border-bottom: 1px solid var(--border-grey);
 }
 
-/* .horizontal-offer-card i, .offer-card i */ 
 .offer-type i { 
     margin-right: 10px;
 }  
@@ -517,7 +516,6 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .uno {
     background-color: var(--pastelgreen);
